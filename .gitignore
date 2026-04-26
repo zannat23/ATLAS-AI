@@ -27,3 +27,7 @@ __pycache__/
 
 # Output files
 outputs/
+
+# FFmpeg
+ffmpeg-8.1-essentials_build.zip
+ffmpeg*/
