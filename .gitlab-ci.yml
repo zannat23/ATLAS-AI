@@ -1,0 +1,14 @@
+stages:
+  - test
+
+test-pipeline:
+  stage: test
+  image: python:3.11
+  script:
+    - echo "ATLAS AI Project"
+    - python --version
+    - pip install torch --index-url https://download.pytorch.org/whl/cpu
+    - pip install transformers sentencepiece gtts
+    - echo "✅ ATLAS pipeline check passed"
+  only:
+    - main
