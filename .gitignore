@@ -1,0 +1,29 @@
+# Virtual environment
+atlas-env/
+
+# Model cache
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Audio files
+*.mp3
+*.wav
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Huggingface cache
+.cache/
+
+# VS Code
+.vscode/
+
+# Output files
+outputs/
