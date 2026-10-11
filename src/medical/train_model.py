@@ -6,11 +6,11 @@ from torchvision import datasets, models
 from torch.utils.data import DataLoader
 import wandb
 import os
+os.environ["WANDB_MODE"] = "disabled"
 
 # ── Config ────────────────────────────────────────
 DEVICE      = "cuda" if torch.cuda.is_available() else "cpu"
-CLASSES     = ['burn_mild','burn_severe','bruise',
-               'infection','laceration','normal']
+CLASSES     = ['normal', 'bruise', 'abrasion', 'laceration', 'puncture_wound', 'burn']
 NUM_CLASSES = len(CLASSES)
 BATCH_SIZE  = 32
 EPOCHS      = 20
@@ -98,17 +98,22 @@ scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
     T_max=EPOCHS
 )
 
-# ── W&B tracking ───────────────────────────────────
-wandb.init(
-    project="atlas-medical",
-    name="wound-classifier-v1",
-    config={
-        "epochs": EPOCHS,
-        "batch_size": BATCH_SIZE,
-        "lr": LR,
-        "model": "efficientnet_b0"
-    }
-)
+# ── W&B tracking (optional — skip if not logged in) ──
+USE_WANDB = True
+try:
+    wandb.init(
+        project="atlas-medical",
+        name="wound-classifier-v2",
+        config={
+            "epochs": EPOCHS,
+            "batch_size": BATCH_SIZE,
+            "lr": LR,
+            "model": "efficientnet_b0"
+        }
+    )
+except Exception as e:
+    print(f"W&B not available ({e}) - continuing without logging.")
+    USE_WANDB = False
 
 # ── Training loop ──────────────────────────────────
 best_val_acc = 0.0
@@ -148,12 +153,13 @@ for epoch in range(EPOCHS):
           f"Train: {train_acc:.3f} | "
           f"Val: {val_acc:.3f}")
 
-    wandb.log({
-        "train_acc": train_acc,
-        "val_acc":   val_acc,
-        "train_loss": train_loss/len(train_loader),
-        "val_loss":   val_loss/len(val_loader)
-    })
+    if USE_WANDB:
+        wandb.log({
+            "train_acc": train_acc,
+            "val_acc":   val_acc,
+            "train_loss": train_loss/len(train_loader),
+            "val_loss":   val_loss/len(val_loader)
+        })
 
     # Save best model
     if val_acc > best_val_acc:
@@ -164,9 +170,10 @@ for epoch in range(EPOCHS):
             "val_acc":          val_acc,
             "epoch":            epoch
         }, f"{MODEL_DIR}/wound_classifier_best.pth")
-        print(f"   ✅ Best model saved! Val acc: {val_acc:.3f}")
+        print(f"   Best model saved! Val acc: {val_acc:.3f}")
 
-wandb.finish()
-print(f"\n🎉 Training complete!")
+if USE_WANDB:
+    wandb.finish()
+print(f"\nTraining complete!")
 print(f"   Best val accuracy: {best_val_acc:.3f}")
 print(f"   Model saved: models/wound_classifier_best.pth")

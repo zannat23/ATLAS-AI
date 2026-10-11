@@ -1,0 +1,1799 @@
+{
+  "module": "medical_classifier",
+  "total_images": 240,
+  "overall_accuracy": 1.0,
+  "eval_time_seconds": 4.09,
+  "classification_report": {
+    "bruise": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "burn_mild": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "burn_severe": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "infection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "laceration": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 240.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "bruise",
+      "burn_mild",
+      "burn_severe",
+      "infection",
+      "laceration",
+      "normal"
+    ],
+    "matrix": [
+      [
+        40,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        40,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        40,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        40,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        40,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        40
+      ]
+    ]
+  },
+  "per_image_results": [
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0000.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.997,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0001.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0002.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0003.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0004.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0005.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0006.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0007.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0008.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.997,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0009.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0010.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0011.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0012.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0013.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0014.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0015.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.996,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0016.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0017.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0018.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0019.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0020.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0021.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0022.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0023.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0024.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0025.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0026.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0027.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0028.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0029.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0030.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.998,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0031.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0032.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0033.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0034.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0035.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0036.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0037.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0038.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\bruise\\bruise_0039.jpg",
+      "true_label": "bruise",
+      "predicted": "bruise",
+      "confidence": 0.999,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0000.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0001.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0002.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0003.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0004.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0005.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0006.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0007.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0008.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0009.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0010.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0011.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0012.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0013.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0014.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0015.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0016.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0017.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0018.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0019.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0020.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0021.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0022.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0023.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0024.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0025.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0026.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0027.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0028.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0029.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0030.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0031.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0032.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0033.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0034.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0035.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0036.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0037.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0038.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_mild\\burn_mild_0039.jpg",
+      "true_label": "burn_mild",
+      "predicted": "burn_mild",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0000.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0001.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0002.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0003.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0004.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0005.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0006.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0007.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0008.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0009.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0010.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0011.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0012.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0013.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0014.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0015.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0016.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0017.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0018.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0019.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0020.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0021.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0022.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0023.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0024.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0025.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0026.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0027.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0028.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0029.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0030.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0031.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0032.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0033.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0034.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0035.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0036.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0037.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0038.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\burn_severe\\burn_severe_0039.jpg",
+      "true_label": "burn_severe",
+      "predicted": "burn_severe",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0000.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0001.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0002.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0003.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0004.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0005.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0006.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0007.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0008.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0009.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0010.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0011.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0012.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0013.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0014.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0015.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0016.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0017.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0018.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0019.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0020.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0021.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0022.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0023.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0024.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0025.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0026.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0027.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0028.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0029.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0030.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0031.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0032.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0033.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0034.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0035.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0036.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0037.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0038.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\infection\\infection_0039.jpg",
+      "true_label": "infection",
+      "predicted": "infection",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0000.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0001.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0002.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0003.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0004.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0005.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0006.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0007.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0008.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0009.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0010.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0011.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0012.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0013.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0014.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0015.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0016.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0017.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0018.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0019.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0020.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0021.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0022.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0023.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0024.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0025.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0026.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0027.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0028.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0029.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0030.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0031.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0032.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0033.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0034.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0035.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0036.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0037.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0038.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\laceration\\laceration_0039.jpg",
+      "true_label": "laceration",
+      "predicted": "laceration",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0000.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0001.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0002.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0003.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0004.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0005.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0006.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0007.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0008.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0009.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0010.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0011.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0012.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0013.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0014.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0015.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0016.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0017.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0018.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0019.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0020.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0021.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0022.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0023.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0024.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0025.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0026.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0027.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0028.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0029.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0030.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0031.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0032.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0033.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0034.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0035.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0036.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0037.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0038.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "image": "data/processed/wounds/val\\normal\\normal_0039.jpg",
+      "true_label": "normal",
+      "predicted": "normal",
+      "confidence": 1.0,
+      "correct": true
+    }
+  ]
+}

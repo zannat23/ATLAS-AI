@@ -1,5 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
+from typing import Optional
 import sys
 sys.path.append(".")
 from src.resource.locator import search_resources, detect_intent
@@ -7,8 +8,8 @@ from src.resource.locator import search_resources, detect_intent
 router = APIRouter()
 
 class ResourceRequest(BaseModel):
-    query:         str   = None
-    resource_type: str   = None
+    query:         Optional[str] = None
+    resource_type: Optional[str] = None
     lat:           float = 18.5204
     lon:           float = 73.8567
     limit:         int   = 5

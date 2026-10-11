@@ -31,3 +31,12 @@ outputs/
 # FFmpeg
 ffmpeg-8.1-essentials_build.zip
 ffmpeg*/
+
+node_modules/
+wandb/
+.gradio/
+cache/
+outputs/
+.env
+*.zip
+ALL DOCUMENTS/

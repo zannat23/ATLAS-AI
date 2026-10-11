@@ -1,0 +1,109 @@
+{
+  "module": "resource_intent_detection",
+  "total_queries": 17,
+  "accuracy": 0.9412,
+  "results": [
+    {
+      "query": "I am injured and need a doctor",
+      "expected": "hospital",
+      "detected": "hospital",
+      "correct": true
+    },
+    {
+      "query": "Someone is hurt, need medical help",
+      "expected": "hospital",
+      "detected": "hospital",
+      "correct": true
+    },
+    {
+      "query": "There is a clinic nearby?",
+      "expected": "hospital",
+      "detected": "hospital",
+      "correct": true
+    },
+    {
+      "query": "I need drinking water",
+      "expected": "water",
+      "detected": "water",
+      "correct": true
+    },
+    {
+      "query": "I am so thirsty",
+      "expected": "water",
+      "detected": "water",
+      "correct": true
+    },
+    {
+      "query": "mujhe paani chahiye",
+      "expected": "water",
+      "detected": "water",
+      "correct": true
+    },
+    {
+      "query": "Where can I sleep tonight",
+      "expected": "shelter",
+      "detected": "shelter",
+      "correct": true
+    },
+    {
+      "query": "I need a place to stay",
+      "expected": "shelter",
+      "detected": "shelter",
+      "correct": true
+    },
+    {
+      "query": "Is there a camp nearby",
+      "expected": "shelter",
+      "detected": "shelter",
+      "correct": true
+    },
+    {
+      "query": "I am hungry, need food",
+      "expected": "food",
+      "detected": "food",
+      "correct": true
+    },
+    {
+      "query": "Where can I get a meal",
+      "expected": "food",
+      "detected": "food",
+      "correct": true
+    },
+    {
+      "query": "mujhe khana chahiye",
+      "expected": "food",
+      "detected": "food",
+      "correct": true
+    },
+    {
+      "query": "I need support and aid",
+      "expected": "ngo",
+      "detected": "ngo",
+      "correct": true
+    },
+    {
+      "query": "Which NGO can help me",
+      "expected": "ngo",
+      "detected": "ngo",
+      "correct": true
+    },
+    {
+      "query": "mujhe sahayata chahiye",
+      "expected": "ngo",
+      "detected": "ngo",
+      "correct": true
+    },
+    {
+      "query": "Just saying hello",
+      "expected": null,
+      "detected": null,
+      "correct": true
+    },
+    {
+      "query": "What is the weather today",
+      "expected": null,
+      "detected": "food",
+      "correct": false
+    }
+  ]
+}

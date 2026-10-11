@@ -1,15 +1,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+import os
 from backend.routers import voice, medical, resources
 
-# ── App setup ─────────────────────────────────────
 app = FastAPI(
     title="ATLAS AI API",
     description="Offline Multilingual Crisis Assistance System",
     version="1.0.0"
 )
 
-# ── CORS — allows React to call this API ──────────
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -18,12 +18,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Routers ───────────────────────────────────────
+os.makedirs("outputs", exist_ok=True)
+app.mount("/outputs", StaticFiles(directory="outputs"), name="outputs")
+
 app.include_router(voice.router,     prefix="/api/voice",     tags=["Voice"])
 app.include_router(medical.router,   prefix="/api/medical",   tags=["Medical"])
 app.include_router(resources.router, prefix="/api/resources", tags=["Resources"])
 
-# ── Health check ──────────────────────────────────
 @app.get("/")
 async def root():
     return {
